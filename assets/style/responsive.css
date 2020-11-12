@@ -1,0 +1,20 @@
+@media (max-width: 900px){
+    header nav{
+        justify-content: center;
+        flex-direction: column;
+    }
+    header nav .navbar{
+        margin: 20px 0;
+    }
+
+    .main{
+        flex-direction: column-reverse;
+    }
+    .main .text{
+        text-align: center;
+    }
+    .main img {
+        width: 70vw;
+        max-width: 350px;
+    }
+}
